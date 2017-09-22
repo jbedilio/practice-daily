@@ -9,7 +9,7 @@ console.log(name);
 
 console.log(Math.pow(2, 12));
 
-console.log('fucking cool');
+console.log('flippin cool');
 
 setTimeout (() => {
 
