@@ -41,3 +41,15 @@ fs.writeFile('movies3.txt', 'It, The Interview, Four Rooms', error => {
     console.log('movies3.txt update cash money pimp machine');
 
 });
+
+var fs = require('fs');
+
+fs.writeFile('movies.txt', 'The Interview, Four Rooms', error => {
+
+    if(error){
+
+        console.log(wowza);
+    }
+    console.log('movies.text updated cash money pimp machine');
+
+});

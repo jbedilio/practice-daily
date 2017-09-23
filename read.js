@@ -86,3 +86,33 @@ fs.readFile('movies.txt', 'utf8', (error, data) => {
 
     console.log(dataArr);
 });
+
+var fs = require('fs');
+
+fs.readFile('movies.txt', 'utf8', (error, data) => {
+
+    if(error){
+        throw error;
+    }
+
+    console.log(data);
+
+    var dataArr = data.split(',');
+
+    console.log(dataArr);
+});
+
+var fs = require('fs');
+
+fs.readFile('movies.txt', 'utf8', (error, data) => {
+
+    if(error){
+        throw error;
+    }
+
+    console.log(data);
+
+    var dataArr = data.split(',');
+
+    console.log(dataArr);
+})
