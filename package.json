@@ -4,7 +4,9 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "request": "^2.82.0"
+    "geocoder": "^0.2.3",
+    "request": "^2.82.0",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
