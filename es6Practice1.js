@@ -49,3 +49,11 @@ console.log('m-names: ', mNames);
 
 const mNames = names.filter((name) => name.startsWith('M'));
 console.log('m-names: ', mNames);
+
+const sum = princesses.reduce((sum, princess) => sum + princess.age, 0);
+const average = sum / princesses.length;
+console.log('average age: ', average);
+
+const sum = princesses.reduce((sum, princess) => sum + princess.age, 0);
+const average = sum / princesses.length;
+console.log('average age: ', average);
