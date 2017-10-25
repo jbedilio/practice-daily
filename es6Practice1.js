@@ -57,3 +57,9 @@ console.log('average age: ', average);
 const sum = princesses.reduce((sum, princess) => sum + princess.age, 0);
 const average = sum / princesses.length;
 console.log('average age: ', average);
+
+const lNames = princesses.filter(princess => princess.name.includes("l"));
+
+const lSum = lNames.reduce((sum, princess) => sum + princess.age, 0);
+
+const lAverage = lSum / lNames.length;
