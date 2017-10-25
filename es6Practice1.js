@@ -31,3 +31,21 @@ console.log("average age: ", average);
 
 princesses.forEach(princess => console.log(`${princess.name}: ${princess.age}`));
 princesses.forEach(princess => console.log(`${princess.name}: ${princess.age}`));
+
+const names = princesses.map(princess => princess.name);
+console.log("names: ", names);
+
+const names = princesses.map(princess => princess.name);
+console.log('names: ', names);
+
+const names = princesses.map(princes => princess.name);
+console.log(`names: `, names);
+
+const mNames = names.filter(name => name.startsWith("M"));
+console.log("m-names: ", mNames);
+
+const mNames = names.filter((name) => name.startsWith('M'));
+console.log('m-names: ', mNames);
+
+const mNames = names.filter((name) => name.startsWith('M'));
+console.log('m-names: ', mNames);
